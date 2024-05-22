@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color:#023e8a;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .container .logo-div .Logo {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+header .container nav ul li {
+  padding: 20px 0px;
+}
+
+header .container nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: #0077b6;
+}
+
+a.active {
+  background-color: #0077b6;
+}
+
+main {
+  text-align: center;
+  margin-top: 200px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* height: 60px; */
+  background-color: #023e8a;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: #fff;
+}
+
+.button {
+  border: none;
+  outline: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #023e8a;
+  color: #fff;
+  transition: all 200ms;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #023e8a;
+}
+
+.button:active {
+  background-color: #fff;
+  color: #023e8a;
+}
